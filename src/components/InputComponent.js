@@ -8,6 +8,8 @@ const InputComponent=({errorText,title,onChange,value})=>{
     className='InputField'
     onChange={onChange}  
   value={value}
+
+  
   />
     </div>  
   {errorText&&<p>{errorText}</p>}
